@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="digitar email" id="e-mail"><br><br>
+            <input type="password" placeholder="digitar a senha" id="senha"><br><br>
+            <input type="submit" onclick="logar(); return false">
+        </form>
+    </div>
+    <script>
+        function logar(){
+            var login = document.getElementById('e-mail').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "seila@gmail.com" && senha == "faca"){
+                alert('deu certo')
+                location.href = "inicio.html"
+            }
+            else{
+                alert('erro')
+            }
+        }
+    </script>
+</body>
+</html>

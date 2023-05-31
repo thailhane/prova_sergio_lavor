@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+div{
+    background-color:rgb(120, 31, 92);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 550px;
+    margin-right: 300px; 
+    padding: 100px ;
+    border: 1px solid black ;
+    border-radius:40px ;
+}
